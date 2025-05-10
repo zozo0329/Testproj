@@ -1,0 +1,25 @@
+.ExpensesItem {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(136, 136, 136);
+  padding: 20px;
+  margin: 15px 0px 15px 0px;
+}
+.Date,
+.Title,
+.Amount {
+  font-size: 30px;
+}
+.Date,
+.Title {
+  font-family: sans-serif;
+}
+.Amount {
+  background-color: lime;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: monospace;
+  font-weight: bold;
+  border: none;
+}
