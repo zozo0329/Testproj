@@ -1,0 +1,44 @@
+.Form_Hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Form input {
+  height: 30px;
+  width: 250px;
+  padding: 3px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 3px solid white;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.form_action button {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.form_action button:hover {
+  background-color: rgb(214, 214, 214);
+}

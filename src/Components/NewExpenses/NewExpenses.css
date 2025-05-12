@@ -1,0 +1,7 @@
+.New-Expenses {
+  padding: 30px;
+  margin: 100px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px white;
+}

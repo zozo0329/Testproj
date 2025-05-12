@@ -6,7 +6,7 @@ const ExpensesItem = ({ title, date, amount }) => {
     <div className="ExpensesItem">
       <DateFormat date={date} />
       <div className="Title">{title}</div>
-      <div className="Amount">{amount}</div>
+      <div className="Amount">₱{amount}</div>
     </div>
   );
 };
